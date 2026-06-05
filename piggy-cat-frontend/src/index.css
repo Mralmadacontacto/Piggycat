@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --bg-primary-color:#121212;
+    --bg-secondary-color:#181818;
+    --bg-tertiary-color:#282828;
+    --bg-card-color:#404040;
+    --border-color:#AAAAAA;
+    --font-color-primary:#e2e8f0;
+    --font-color-secondary:#c4b4f0;
+}
+
+body{
+    color: var(--font-color-primary);
+    font-family: 'inter', sans-serif;
+}
