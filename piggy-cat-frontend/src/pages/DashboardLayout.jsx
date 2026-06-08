@@ -1,5 +1,5 @@
-import Header from './Header.jsx'
-import Sidebar from './Sidebar.jsx'
+import Header from '../shared/components/Header.jsx'
+import Sidebar from '../shared/components/SideBar.jsx'
 import { Outlet } from 'react-router-dom'
 
 export default function Layout() {
@@ -14,7 +14,7 @@ export default function Layout() {
         <Header></Header>
       </header>
 
-      <main className="min-h-0 overflow-auto bg-(--bg-secondary-color) rounded-2xl">
+      <main className="min-h-0 overflow-auto bg-(--bg-tertiary-color) rounded-2xl">
         <Outlet></Outlet>
       </main>
     </div>

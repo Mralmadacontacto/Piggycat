@@ -4,14 +4,24 @@
 :root {
     --bg-primary-color:#121212;
     --bg-secondary-color:#181818;
-    --bg-tertiary-color:#282828;
+    --bg-tertiary-color:#181818;
     --bg-card-color:#404040;
     --border-color:#AAAAAA;
     --font-color-primary:#e2e8f0;
-    --font-color-secondary:#c4b4f0;
+    --font-color-secondary:#e2e8f0;
+    --font-color-tertiary:#e2e8f0;
 }
 
-body{
-    color: var(--font-color-primary);
+.light {
+    --bg-primary-color:#d4d4d4;
+    --bg-secondary-color:#181818;
+    --bg-tertiary-color:#fafafa;
+    --bg-card-color:#d4d4d4;
+    --border-color:#404040;
+    --font-color-primary:#e2e8f0;
+    --font-color-secondary:#181818;
+    --font-color-tertiary:#181818;
+}
+body{   
     font-family: 'inter', sans-serif;
 }

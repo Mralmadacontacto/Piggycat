@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import  Layout  from '../components/layout/Layout.jsx'
-import Dashboard from '../Pages/dashboard/Dashboard.jsx'
-import Ingresos from "../Pages/ingresos/ingresos.jsx"
+import  Layout  from '../../pages/DashboardLayout.jsx'
+import Dashboard from '../../features/dashboard/Dashboard.jsx'
+import Ingresos from "../../features/ingresos/ingresos.jsx"
 
 export default function AppRouter() {
   return (
